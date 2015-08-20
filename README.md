@@ -1,7 +1,7 @@
 # CharacterSheets
 
 D6 Fantasy character sheet for roll20
-author: Austin B. 
+author: Austin Bailey 
 Thanks to: Timothy O'Driscoll (D6 Star Wars Sheet), MichaelK73 (D6 Space Sheet), and CoalPoweredPuppet (D6 Space Sheet)
 
 This script is intended to be used with the roll20.net custom character sheet feature. In order to load this sheet,
