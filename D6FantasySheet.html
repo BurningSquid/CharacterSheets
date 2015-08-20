@@ -8,7 +8,7 @@
         <label>Character Name:<input class="sheet-right sheet-shorttext" type="text" name="attr_charactername" style="width:65%;"/></label>
         <label>Player Name:<input class="sheet-right sheet-shorttext" type="text" name="attr_playername" style="width:70%;"/></label>
         <label>Occupation:<input class="sheet-right sheet-shorttext" type="text" name="attr_occupation" style="width:75%;"/></label>
-        <label>Race/Gender:<input class="sheet-right sheet-shorttext" style="width:80%;" type="text" name="attr_species"/></label>
+        <label>Race:<input class="sheet-right sheet-shorttext" style="width:80%;" type="text" name="attr_species"/></label>
         <table style="margin-top:-10px; margin-left:-10px;">
           <tr><td>
             <label>Gender:<input class="sheet-smalltext sheet-shorttext" type="text" name="attr_gender"/></label></td><td>
@@ -19,7 +19,7 @@
         </table>
       </div>
       <div class='sheet-col'>
-        <label>Physical Description:<textarea style="height:120px; padding-top:2px; padding-bottom:2px;"></textarea></label>
+        <label>Physical Description:<textarea style="height:150px; padding-top:2px; padding-bottom:2px;"></textarea></label>
       </div>
     </div>
   </div>
@@ -184,14 +184,14 @@
   		<label>Type <input type="text" name="attr_weapontype" />  Damage <input type="number" name="attr_dmg" class="sheet-smallnumber" min="0" value="0"/>D+<input type="number" name="attr_dmgpip" class="sheet-smallnumber" min="0" max="2" value="0"/>Range: S/M/L
       <input type="number" name="attr_rangeS" class="sheet-smallnumber" min="0"/> /
       <input type="number" name="attr_rangeM" class="sheet-smallnumber" min="0"/> /
-      <input type="number" name="attr_rangeL" class="sheet-smallnumber" min="0"/> </label>
-      <label>Ammo <input type="number" name="attr_ammo" class="sheet-smallnumber" min="0" value="0" /></label>
+      <input type="number" name="attr_rangeL" class="sheet-smallnumber" min="0"/>
+      Ammo <input type="number" name="attr_ammo" class="sheet-smallnumber" min="0" value="0" /></label>
       <fieldset class="repeating_addweapon">
 			  <label>Type <input type="text" name="attr_addweapontype" />  Damage <input type="number" name="attr_adddmg" class="sheet-smallnumber" min="0" value="0"/>D+<input type="number" name="attr_adddmgpip" class="sheet-smallnumber" min="0" max="2" value="0"/>Range: S/M/L
        	<input type="number" name="attr_addrangeS" class="sheet-smallnumber" min="0"/> /
        	<input type="number" name="attr_addrangeM" class="sheet-smallnumber" min="0"/> /
-        <input type="number" name="attr_addrangeL" class="sheet-smallnumber" min="0"/></label>
-     	  <label>Ammo <input type="number" name="attr_addammo" class="sheet-smallnumber" min="0" value="0"/></label>
+        <input type="number" name="attr_addrangeL" class="sheet-smallnumber" min="0"/>
+     	  Ammo <input type="number" name="attr_addammo" class="sheet-smallnumber" min="0" value="0"/></label>
       </fieldset>
   	</div>
   </div>
@@ -227,10 +227,10 @@
     </div>
     </div>
     <div name="Spell-Other" class='sheet-border'>
-      <label>Spell other:<textarea style="height:120px; padding-top:2px; padding-bottom:2px;" name="attr_spellother" ></textarea></label>
+      <label>Spell other:<textarea style="width: 780px; height:120px; padding-top:2px; padding-bottom:2px;" name="attr_spellother" ></textarea></label>
     </div>
     <div name="Spell-Descr" class="sheet-border">
-      <label>Spell Description:<textarea style="height:120px; padding-top:2px; padding-bottom:2px;" name="attr_spelldesc" ></textarea></label>
+      <label>Spell Description:<textarea style="width: 780px; height:120px; padding-top:2px; padding-bottom:2px;" name="attr_spelldesc" ></textarea></label>
     </div>
     <fieldset name="Repeated-Spell" class="repeating_addspell">
       <div class="sheet-3col">
@@ -252,10 +252,10 @@
       </div>
     </div>
     <div class='sheet-border'>
-      <label>Spell other:<textarea style="height:120px; padding-top:2px; padding-bottom:2px;" name="attr_addspellother" ></textarea></label>
+      <label>Spell other:<textarea style="width: 780px; height:120px; padding-top:2px; padding-bottom:2px;" name="attr_addspellother" ></textarea></label>
     </div>
     <div class="sheet-border">
-      <label>Spell Description:<textarea style="height:120px; padding-top:2px; padding-bottom:2px;" name="attr_addspelldesc" ></textarea></label>
+      <label>Spell Description:<textarea style="width: 780px; height:120px; padding-top:2px; padding-bottom:2px;" name="attr_addspelldesc" ></textarea></label>
     </div>
     </fieldset>
   </div>
