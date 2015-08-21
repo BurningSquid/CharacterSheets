@@ -11,6 +11,6 @@ copy the code from the .html and .css files and paste them into the respective a
 
 I highly recommend using this with the Wild Dice API script if you plan on playing with the D6 system (https://github.com/Roll20/roll20-api-scripts/tree/master/WildDice).
 
-The full repository of community-made character sheets can be found here: https://github.com/Roll20/roll20-character-sheets.
+NOTICE: the D6 Fantasy character sheet has been moved to the official roll20 character sheet repository: https://github.com/Roll20/roll20-character-sheets.
 
 Enjoy!
