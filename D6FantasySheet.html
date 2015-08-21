@@ -214,54 +214,60 @@
     <div name="Spell-Pg1" class="sheet-col">
       <label>Spell Name: <input type="text" class="sheet-shorttext sheet-right" name="attr_spellname" /> </label>
       <label>Effect: <input type="text" class="sheet-shorttext sheet-right" name="attr_spelleffect" /> </label>
-      <label>Range (m): <input type="number" name="attr_spellrange" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
-      <label>Duration (min): <input type="number" name="attr_spellduration" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
+      <label>Range(m): <input type="number" name="attr_spellrange" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
+      <label>Duration(min): <input type="number" name="attr_spellduration" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
     </div>
     <div name="Spell-Pg2" class="sheet-col">
       <label>Difficulty: <input type="number" name="attr_spelldiff" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
       <label>Charges: <input type="number" name="attr_spellcharge" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
-      <label>Speed (nds): <input type="number" name="attr_spellspeed" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
+      <label>Speed(rnds): <input type="number" name="attr_spellspeed" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
       <label>Change Target: <input type="number" name="attr_spelltarget" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
     </div>
     <div name="Spell-Pg3" class="sheet-col">
-      <label>Casting Time (s): <input type="number" name="attr_spellcasting" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
-      <label>Components: <textarea style="width: 280px; height:60px; padding-top:2px; padding-bottom:2px;" name="attr_spellcomp" ></textarea></label>
+      <label>Casting Time(s):<input type="number" name="attr_spellcasting" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
+      <label>Components:<textarea style="width: 280px; height:60px; padding-top:2px; padding-bottom:2px;" name="attr_spellcomp" ></textarea></label>
     </div>
     </div>
-    <div name="Spell-Other" class='sheet-border'>
-      <label>Spell other:<textarea style="width: 780px; height:120px; padding-top:2px; padding-bottom:2px;" name="attr_spellother" ></textarea></label>
+    <div class="sheet-2colrow">
+      <div name="Spell-Other" class='sheet-col'>
+        <label>Spell other:<textarea style="height:100px; padding-top:2px; padding-bottom:2px;" name="attr_spellother" ></textarea></label>
+      </div>
+      <div name="Spell-Descr" class="sheet-col">
+        <label>Spell Description:<textarea style="height:100px; padding-top:2px; padding-bottom:2px;" name="attr_spelldesc" ></textarea></label>
+      </div>
     </div>
-    <div name="Spell-Descr" class="sheet-border">
-      <label>Spell Description:<textarea style="width: 780px; height:120px; padding-top:2px; padding-bottom:2px;" name="attr_spelldesc" ></textarea></label>
-    </div>
+    <div class="sheet-section"></div>
     <fieldset name="Repeated-Spell" class="repeating_addspell">
       <div class="sheet-3col">
       <div class="sheet-col">
         <label>Spell Name:<input type="text" class="sheet-shorttext sheet-right" name="attr_addspellname" /> </label>
         <label>Effect:<input type="text" class="sheet-shorttext sheet-right" name="attr_addspelleffect" /> </label>
-        <label>Range:<input type="number" name="attr_addspellrange" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
-        <label>Duration (min):<input type="number" name="attr_addspellduration" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
+        <label>Range(m):<input type="number" name="attr_addspellrange" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
+        <label>Duration(min):<input type="number" name="attr_addspellduration" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
       </div>
       <div class="sheet-col">
         <label>Difficulty:<input type="number" name="attr_addspelldiff" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
         <label>Charges:<input type="number" name="attr_addspellcharge" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
-        <label>Speed (s):<input type="number" name="attr_addspellspeed" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
+        <label>Speed(rnds):<input type="number" name="attr_addspellspeed" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
         <label>Change Target:<input type="number" name="attr_addspelltarget" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
       </div>
       <div class="sheet-col">
-        <label>Casting Time (s):<input type="number" name="attr_addspellcasting" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
+        <label>Casting Time(s):<input type="number" name="attr_addspellcasting" class="sheet-smallnumber sheet-shortnumber sheet-right" min="0" value="0"/></label>
         <label>Components:<textarea style="width: 280px; height:60px; padding-top:2px; padding-bottom:2px;" name="attr_addspellcomp" ></textarea></label>
       </div>
+      </div>
+      <div class="sheet-2colrow">
+      <div class='sheet-col'>
+        <label>Spell other:<textarea style="height:100px; padding-top:2px; padding-bottom:2px;" name="attr_addspellother" ></textarea></label>
+      </div>
+      <div class="sheet-col">
+        <label>Spell Description:<textarea style="height:100px; padding-top:2px; padding-bottom:2px;" name="attr_addspelldesc" ></textarea></label>
+      </div>
     </div>
-    <div class='sheet-border'>
-      <label>Spell other:<textarea style="width: 780px; height:120px; padding-top:2px; padding-bottom:2px;" name="attr_addspellother" ></textarea></label>
-    </div>
-    <div class="sheet-border">
-      <label>Spell Description:<textarea style="width: 780px; height:120px; padding-top:2px; padding-bottom:2px;" name="attr_addspelldesc" ></textarea></label>
-    </div>
+      <div class="sheet-section"></div>
     </fieldset>
   </div>
-  <div name="additionalinfo" class="sheet-section">
+  <div name="additionalinfo">
     <div class="sheet-4colrow">
 	  <div name="Personality" class="sheet-col">
 		  <label class="sheet-areaLabel">Personality:<textarea name="attr_personality"></textarea></label>
